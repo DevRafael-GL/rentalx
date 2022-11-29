@@ -10,16 +10,13 @@ class User {
   name: string;
 
   @Column()
-  username: string;
-
-  @Column()
   email: string;
 
   @Column()
   password: string;
 
   @Column()
-  driver_licence: string;
+  driver_license: string;
 
   @Column()
   isAdmin: boolean;
